@@ -61,3 +61,4 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
 };
 
 export default FAQItem;
+

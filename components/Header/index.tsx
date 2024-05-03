@@ -96,14 +96,14 @@ const Header = () => {
         </div>
 
         {/* Nav Menu Start   */}
-        <div
-          className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
+        <div style={{marginRight: -774}}
+          className={`invisible h-0 w-full items-right justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
             navigationOpen &&
             "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
           }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
+            <ul className="flex flex-col gap-5 xl:flex-row xl:items-right xl:gap-10">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (
@@ -136,15 +136,16 @@ const Header = () => {
                     </>
                   ) : (
                     <Link
-                      href={`${menuItem.path}`}
-                      className={
-                        pathUrl === menuItem.path
-                          ? "text-primary hover:text-primary"
-                          : "hover:text-primary"
-                      }
-                    >
-                      {menuItem.title}
-                    </Link>
+                    href={`${menuItem.path}`}
+                    style={{ textAlign: "right" }}
+                    className={
+                      pathUrl === menuItem.path
+                        ? "text-primary hover:text-primary"
+                        : "hover:text-primary"
+                    }
+                  >
+                    {menuItem.title}
+                  </Link>
                   )}
                 </li>
               ))}
