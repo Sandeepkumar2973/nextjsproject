@@ -60,7 +60,7 @@ const FAQ = () => {
                 </span>
               </h2>
 
-              <a
+              {/* <a
                 href="#"
                 className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
               >
@@ -76,7 +76,7 @@ const FAQ = () => {
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </a> */}
             </motion.div>
 
             <motion.div
