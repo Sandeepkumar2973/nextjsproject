@@ -160,72 +160,67 @@ const FunFact = () => {
             </motion.div>
           </div>
           <div className="flex flex-wrap justify-center gap-2 lg:gap-22.5">
-  <motion.div
-    variants={{
-      hidden: {
-        opacity: 0,
-        y: -20,
-      },
-      visible: {
-        opacity: 1,
-        y: 0,
-      },
-    }}
-    initial="hidden"
-    whileInView="visible"
-    transition={{ duration: 1, delay: 0.5 }}
-    viewport={{ once: true }}
-    className="animate_top  p-5 mt-5 rounded-lg bg-transparent shadow-md border border-black"
-  >
-    <p className="text-lg">Quality Education</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-  </motion.div>
-  <motion.div
-    variants={{
-      hidden: {
-        opacity: 0,
-        y: -20,
-      },
-      visible: {
-        opacity: 1,
-        y: 0,
-      },
-    }}
-    initial="hidden"
-    whileInView="visible"
-    transition={{ duration: 1, delay: 0.7 }}
-    viewport={{ once: true }}
-    className="animate_top  p-5 mt-5 rounded-lg bg-transparent shadow-md border border-black"
-  >
-    <h5 className="">Average Income</h5>
-    <p className="">Lorem ipsum dolor sit amet.</p>
-  </motion.div>
-  <motion.div
-    variants={{
-      hidden: {
-        opacity: 0,
-        y: -20,
-      },
-      visible: {
-        opacity: 1,
-        y: 0,
-      },
-    }}
-    initial="hidden"
-    whileInView="visible"
-    transition={{ duration: 1, delay: 0.8 }}
-    viewport={{ once: true }}
-    className="animate_top text-bold p-5 mt-5 rounded-lg bg-transparent shadow-md border border-black"
-  >
-    <p className="text-lg">German Vacant Jobs</p>
-    <p className="">Lorem ipsum dolor sit amet.</p>
-  </motion.div>
-</div>
-
-
-
-
-
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.5 }}
+              viewport={{ once: true }}
+              className="animate_top  p-5 mt-5 rounded-lg bg-transparent shadow-md border border-black"
+            >
+              <p className="text-lg">Quality Education</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </motion.div>
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.7 }}
+              viewport={{ once: true }}
+              className="animate_top  p-5 mt-5 rounded-lg bg-transparent shadow-md border border-black"
+            >
+              <h5 className="">Average Income</h5>
+              <p className="">Lorem ipsum dolor sit amet.</p>
+            </motion.div>
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.8 }}
+              viewport={{ once: true }}
+              className="animate_top text-bold p-5 mt-5 rounded-lg bg-transparent shadow-md border border-black"
+            >
+              <p className="text-lg">German Vacant Jobs</p>
+              <p className="">Lorem ipsum dolor sit amet.</p>
+            </motion.div>
+          </div>
         </div>
       </section>
       {/* <!-- ===== Funfact End ===== --> */}

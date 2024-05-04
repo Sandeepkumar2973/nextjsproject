@@ -40,17 +40,17 @@ const Header = () => {
       {/* Logo on the left */}
       <a href="/" className="flex items-center">
         <Image
-          src="/images/logo/Logo_LowRes_PNG.png"
+          src="/images/logo/Aspirations-Logo-for-website.png"
           alt="logo"
-          width={119.03}
-          height={30}
+          width={150}
+          height={50}
           className="hidden w-full dark:block"
         />
         <Image
-          src="/images/logo/Logo_LowRes_PNG.png"
+          src="/images/logo/Aspirations-Logo-for-website.png"
           alt="logo"
-          width={119.03}
-          height={30}
+          width={150}
+          height={50}
           className="w-full dark:hidden"
         />
       </a>
