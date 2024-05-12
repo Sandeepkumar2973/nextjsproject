@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const   Footer = () => {
+const Footer = () => {
   return (
     <>
       <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
@@ -43,7 +43,7 @@ const   Footer = () => {
                     alt="Logo"
                     className="hidden dark:block"
                   />
-                  
+
                 </a>
 
                 <p className="mb-10 mt-5">
@@ -55,11 +55,12 @@ const   Footer = () => {
                 </p>
                 <a
                   href="#"
-                  className="text-itemtitle font-medium text-black dark:text-white"
+                // className="text-itemtitle  text-black dark:text-white"
                 >
-                  support@aspirations.nic
+                  info.education@aspirations.global
                 </a>
-                <p>014 0887 6543</p>
+                <p>+91 9873126681</p>
+                <p>+49 1795761267</p>
               </motion.div>
 
               <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
@@ -107,7 +108,7 @@ const   Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >Services
-                        
+
                       </a>
                     </li>
                     <li>

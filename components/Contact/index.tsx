@@ -57,66 +57,66 @@ const Contact = () => {
               className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-              Inquiry Form Input Field  
+                Inquiry Form Input Field
               </h2>
 
               <form
-  action="https://formbold.com/s/unique_form_id"
-  method="POST"
-  className="max-w-xl mx-auto"
->
-  <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
-    <input
-      type="text"
-      placeholder="Full name"
-      className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
-    />
+                action="https://formbold.com/s/unique_form_id"
+                method="POST"
+                className="max-w-xl mx-auto"
+              >
+                <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
+                  <input
+                    type="text"
+                    placeholder="Full name"
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                  />
 
-    <input
-      type="email"
-      placeholder="Email address"
-      className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
-    />
-  </div>
+                  <input
+                    type="email"
+                    placeholder="Email address"
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                  />
+                </div>
 
-  <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
-    <input
-      type="text"
-      placeholder="Mobile number"
-      className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
-    />
+                <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
+                  <input
+                    type="text"
+                    placeholder="Mobile number"
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                  />
 
-    <select
-      className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
-    >
-      <option value="" disabled selected>
-        Select state
-      </option>
-      {/* Add options for states */}
-    </select>
-  </div>
+                  <select
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                  >
+                    <option value="" disabled selected>
+                      Select state
+                    </option>
+                    {/* Add options for states */}
+                  </select>
+                </div>
 
-  <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
-    <select
-      className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
-    >
-      <option value="" disabled selected>
-        Select course
-      </option>
-      {/* Add options for courses */}
-    </select>
+                <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
+                  <select
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                  >
+                    <option value="" disabled selected>
+                      Select course
+                    </option>
+                    {/* Add options for courses */}
+                  </select>
 
-    <select
-      className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
-    >
-      <option value="" disabled selected>
-        Select language & IELTS
-      </option>
-      {/* Add options for language & IELTS */}
-    </select>
-  </div>
+                  <select
+                    className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                  >
+                    <option value="" disabled selected>
+                      Select language & IELTS
+                    </option>
+                    {/* Add options for language & IELTS */}
+                  </select>
+                </div>
 
-  {/* <div className="mb-7.5">
+                {/* <div className="mb-7.5">
     <textarea
       placeholder="Message"
       rows={4}
@@ -124,39 +124,39 @@ const Contact = () => {
     ></textarea>
   </div> */}
 
-<div className="flex items-center mb-7.5">
-  <input
-    id="agreeCheckbox"
-    type="checkbox"
-    className="mr-3 peer"
-  />
-  <label htmlFor="agreeCheckbox" className="cursor-pointer">
-    I agree to receive information from Aspirations INC
-  </label>
-</div>
+                <div className="flex items-center mb-7.5">
+                  <input
+                    id="agreeCheckbox"
+                    type="checkbox"
+                    className="mr-3 peer"
+                  />
+                  <label htmlFor="agreeCheckbox" className="cursor-pointer">
+                    I agree to receive information from Aspirations INC
+                  </label>
+                </div>
 
 
-  <button
-    type="submit"
-    aria-label="send message"
-    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
-  >
-    Send Message
-    <svg
-      className="fill-white"
-      width="14"
-      height="14"
-      viewBox="0 0 14 14"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M10.4767 6.16664L6.00668 1.69664L7.18501 0.518311L13.6667 6.99998L7.18501 13.4816L6.00668 12.3033L10.4767 7.83331H0.333344V6.16664H10.4767Z"
-        fill=""
-      />
-    </svg>
-  </button>
-</form>
+                <button
+                  type="submit"
+                  aria-label="send message"
+                  className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
+                >
+                  Send Message
+                  <svg
+                    className="fill-white"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.4767 6.16664L6.00668 1.69664L7.18501 0.518311L13.6667 6.99998L7.18501 13.4816L6.00668 12.3033L10.4767 7.83331H0.333344V6.16664H10.4767Z"
+                      fill=""
+                    />
+                  </svg>
+                </button>
+              </form>
 
             </motion.div>
 
@@ -186,15 +186,15 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>Delhi, India</p>
+                <p>7 -8, G. FLOOR, VIJAY BUILDING, 17 - BARAKHAMBA ROAD NEW DELHI- 110001</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">support@aspirations.nic
-</a>
+                  <a href="#">info.education@aspirations.global
+                  </a>
                 </p>
               </div>
               <div>
@@ -202,8 +202,8 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">014 0887 6543
-</a>
+                  <a href="#"> +91-11-23320222
+                  </a>
                 </p>
               </div>
             </motion.div>

@@ -13,7 +13,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
             {title}
           </h2>
           <p className="mb-5">{desc1}</p>
-          <p className="w-11/12">{desc2}</p>
+          {/* <p className="w-11/12">{desc2}</p> */}
         </div>
         <div className="relative mx-auto hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2">
           <Image src={image} alt={title} fill className="dark:hidden" />
